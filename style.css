@@ -54,3 +54,24 @@ section img{
     font-family: consolas,Arial, Helvetica, sans-serif;
 }
 
+@media(max-width:400px){
+    html{
+        padding:5px;
+        font-size: 40%;
+    }
+
+    .sec{
+        padding: 17.5px;
+    }
+
+    .sec .content p{
+        line-height: 1.8rem;
+    }
+
+    section{
+        height: 40vh;
+        position: sticky;
+    }
+
+}
+
