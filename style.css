@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fruktur;
+}
+
+body{
+    background-color: #010405;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+section img::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 10000;
+    background: linear-gradient(to top,#010405,transparent);
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    text-align: center;
+}
+
+.sec h2{
+    color: #ff9425;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.sec p{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: consolas,Arial, Helvetica, sans-serif;
+}
+
